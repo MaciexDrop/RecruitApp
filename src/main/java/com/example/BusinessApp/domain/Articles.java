@@ -1,4 +1,4 @@
-package com.example.BusinessApp.DataDomain;
+package com.example.BusinessApp.domain;
 
 import lombok.Data;
 
