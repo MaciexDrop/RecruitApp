@@ -1,13 +1,13 @@
-package com.example.BusinesApp;
+package com.example.BusinessApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BusinesAppApplication {
+public class BusinessAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BusinesAppApplication.class, args);
+		SpringApplication.run(BusinessAppApplication.class, args);
 	}
 
 }
