@@ -22,6 +22,7 @@ public class SaveToTxtArticleService implements SaveArticleService {
         List<Articles> articlesList = businessNewsClient.getNews();
         Scanner skan = new Scanner(System.in);
         System.out.println("Insert file name (without extension):");
-        repository.saveAll(skan.nextLine());
+        repository.saveAll(skan.nextLine(),articlesList);
+        skan.close();
     }
 }
