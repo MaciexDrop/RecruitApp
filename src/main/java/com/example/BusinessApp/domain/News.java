@@ -7,6 +7,6 @@ public class News {
 
     private String status;
     private Integer totalResults;
-    private Articles articles;
+    private Articles[] articles;
 
 }

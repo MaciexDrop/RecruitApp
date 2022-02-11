@@ -1,11 +1,12 @@
 package com.example.BusinessApp.repository;
 
+import org.springframework.stereotype.Component;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
 
-
-@org.springframework.stereotype.Repository
+@Component
 public class TxtRepository implements Repository<String>{
 
     @Override

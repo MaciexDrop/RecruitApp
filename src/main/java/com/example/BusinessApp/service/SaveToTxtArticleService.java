@@ -20,6 +20,5 @@ public class SaveToTxtArticleService implements SaveArticleService {
     public void save() {
         List<Articles> articlesList = businessNewsClient.getNews();
         repository.saveAll(articlesList);
-        return;
     }
 }

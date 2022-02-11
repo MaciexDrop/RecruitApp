@@ -12,6 +12,7 @@ public class BusinessAppApplication {
 
 		PolishBusinessNewsClient api = new PolishBusinessNewsClient();
 		api.getNews();
+
 	}
 
 
